@@ -43,3 +43,16 @@ This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to e
 3. Upload your PDF as `/content/service_manual.pdf`.
 4. Run cells **in order (Cell 1 → Cell 8)**.
 5. Enter your query in the final cell, for example:
+
+
+---
+
+## 📤 Example Output
+```json
+{
+"component": "Brake Caliper Bolt",
+"spec_type": "Torque",
+"value": "35",
+"unit": "Nm"
+}
+
